@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.902
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Gaussian_filter_gpu", "Gaussian_filter_gpu\Gaussian_filter_gpu.vcxproj", "{6C25C31D-A738-41CF-94B4-020A744F4CAE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6C25C31D-A738-41CF-94B4-020A744F4CAE}.Debug|x64.ActiveCfg = Debug|x64
+		{6C25C31D-A738-41CF-94B4-020A744F4CAE}.Debug|x64.Build.0 = Debug|x64
+		{6C25C31D-A738-41CF-94B4-020A744F4CAE}.Release|x64.ActiveCfg = Release|x64
+		{6C25C31D-A738-41CF-94B4-020A744F4CAE}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BCA4A60F-26BA-4071-AB9C-ACE7055FF40C}
+	EndGlobalSection
+EndGlobal
