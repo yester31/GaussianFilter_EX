@@ -9,7 +9,6 @@
 #define ITER 16
 #define KERNEL_LENGTH 10
 
-
 using namespace cv;
 using namespace std;
 using namespace chrono;
