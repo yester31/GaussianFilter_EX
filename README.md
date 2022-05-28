@@ -25,16 +25,20 @@ Given ksize value is even number
 0.0894848
 0.0606536
 
-1. CUDA Kernel Gaussian filtering   
-avg_dur_time =  0.487 [msec]
-
-2. OpenCV Gaussian filtering   
-avg_dur_time = 1.524 [msec] 
-
-3. Cpp function Gaussian filtering   
-avg_dur_time = 145.526 [msec] 
-
-4. CuDNN function Gaussian filtering   
-avg_dur_time = 41.380 [msec]
+<table border="0"  width="100%">
+	<tbody align="center">
+		<tr>
+			<td></td>
+			<td><strong>CUDA Kernel</strong></td><td><strong>OpenCV</strong></td><td><strong>CuDNN</strong></td><td><strong>Cpp function</strong></td>
+		</tr>
+		<tr>
+			<td>Avg Duration time [ms]</td>
+			<td>0.487 ms</td>
+			<td>1.524 ms </td>
+			<td>41.380 ms</td>
+			<td>145.526 ms</td>
+		</tr>
+	</tbody>
+</table>
 
 ***
